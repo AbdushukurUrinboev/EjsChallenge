@@ -1,0 +1,27 @@
+<%- include("partials/header") -%>
+<!-- body -->
+<h1>Compose </h1>
+
+
+
+
+<form method="POST" action="/">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Title</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Write your Title" autocomplete="off" name="postTitle">
+    </div>
+    
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Post</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="postBody"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Publish</button>  
+</form>
+
+
+
+
+
+<!-- footer -->
+
+<%- include("partials/footer") -%>
